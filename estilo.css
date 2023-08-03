@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+  }
+  h2{
+    text-align: center;
+    color:yellow;
+  }
+  
+  header {
+   
+  .secao-topo{
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  }
+  
+  header img {
+    max-width: 150px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: yellow;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 20px;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos específicos para as seções */
+  #fotos {
+    background-color: #222;
+  }
+  
+  #localizacao {
+    background-color: #444;
+  }
+  
+  #contato {
+    background-color: #666;
+  }
+  
